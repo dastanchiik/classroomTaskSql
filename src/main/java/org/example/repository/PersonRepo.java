@@ -1,7 +1,6 @@
 package org.example.repository;
 
 import org.example.configuration.Configuration;
-import org.example.models.Car;
 import org.example.models.Person;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

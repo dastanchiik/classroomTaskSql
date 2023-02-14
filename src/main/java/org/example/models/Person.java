@@ -13,7 +13,6 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "person_id")
     private Long id;
-//    @OneToMany(cascade = CascadeType.ALL)
     private String name;
     private int age;
     private double height;

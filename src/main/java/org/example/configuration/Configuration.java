@@ -1,6 +1,5 @@
 package org.example.configuration;
 
-import org.example.models.Car;
 import org.example.models.Person;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Environment;
@@ -17,7 +16,6 @@ public class Configuration {
                 .setProperty(Environment.PASS,",sql.111217S")
                 .setProperty(Environment.HBM2DDL_AUTO,"validate")
                 .setProperty(Environment.SHOW_SQL,"true")
-                .addAnnotatedClass(Car.class)
                 .addAnnotatedClass(Person.class)
                 .buildSessionFactory();
     }
